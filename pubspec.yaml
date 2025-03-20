@@ -9,7 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
   
+=======
+  flutter_launcher_icons: ^0.14.3
+>>>>>>> 7a1f8569b15d6a8850e8adc5878c362503c24bd7
 
 dev_dependencies:
   flutter_test:
