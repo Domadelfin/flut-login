@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'social_button.dart';
 import 'Text_Field.dart';
+import 'social_button.dart';
 
-class Androidlogin extends StatelessWidget {
-  const Androidlogin({super.key});
+class androidLogin extends StatelessWidget {
+  const androidLogin({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,14 +13,10 @@ class Androidlogin extends StatelessWidget {
                           Container(
                             padding: EdgeInsets.all(16),
                             decoration: BoxDecoration(
-                                image: DecorationImage(
-                                colorFilter: ColorFilter.mode(
-                                  Colors.red.withOpacity(0.6),
-                                  BlendMode.overlay,
-                                ),
+                              image: DecorationImage(
                                 image: AssetImage('assets/background.jpg'),
                                 fit: BoxFit.cover,
-                                ),
+                              ),
                               borderRadius: BorderRadius.circular(20),
                             ),
                             child: Column(
@@ -68,7 +64,7 @@ class Androidlogin extends StatelessWidget {
                                   child: Padding(
                                     padding: EdgeInsets.all(8),
                                     child: Image.asset(
-                                      'assets/icon.png',
+                                      'assets/logo.png',
                                       width: 40,
                                       height: 40,
                                     ),
@@ -138,9 +134,9 @@ class Androidlogin extends StatelessWidget {
                                   children: [
                                     SocialButton(imagePath: "assets/google.png"),
                                     SizedBox(width: 10),
-                                    SocialButton(imagePath: "assets/facebook.png"),
+                                    SocialButton(imagePath: "assets/google.png"),
                                     SizedBox(width: 10),
-                                    SocialButton(imagePath: "assets/apple.png"),
+                                    SocialButton(imagePath: "assets/google.png"),
                                   ],
                                 ),
                                 SizedBox(height: 12),
